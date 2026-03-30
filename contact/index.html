@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Contact | MikeTalksTech</title>
+  <meta name="description" content="Get in touch to book a technology class, workshop, or speaking engagement with MikeTalksTech.">
+  <link rel="stylesheet" href="../style.css">
+</head>
+<body>
+
+  <nav>
+    <div class="nav-bar">
+      <a href="/"><img src="../images/logo.png" alt="MikeTalksTech"></a>
+      <ul class="nav-links">
+        <li><a href="/">Home</a></li>
+        <li><a href="/about/">About</a></li>
+        <li><a href="/classes/">Classes</a></li>
+        <li><a href="/contact/" class="nav-btn on">Get in Touch</a></li>
+      </ul>
+    </div>
+  </nav>
+
+  <div class="pg-head">
+    <div class="sec-label">Get in Touch</div>
+    <h1>Let's Talk Tech</h1>
+    <p>Interested in booking a class, workshop, or speaking engagement? Drop me a line.</p>
+  </div>
+
+  <section class="sec" style="padding-top: 0;">
+    <div class="w">
+      <div class="contact-row">
+
+        <div>
+          <p>I work with libraries, community organizations, and businesses on Long Island and beyond.</p>
+          <p>Fill out the form and I'll get back to you promptly.</p>
+
+          <h3 style="font-size: 14px; margin-top: 24px; margin-bottom: 10px;">Find Me Online</h3>
+          <div class="links">
+            <a href="https://michaelbartolomeo.com" title="Website" target="_blank" rel="noopener">&#127760;</a>
+            <a href="https://www.linkedin.com/in/mikebartolomeo/" title="LinkedIn" target="_blank" rel="noopener">in</a>
+            <a href="https://bsky.app/profile/mikebartolomeo.bsky.social" title="Bluesky" target="_blank" rel="noopener">&#9729;</a>
+            <a href="https://x.com/Mike_Bartolomeo" title="X" target="_blank" rel="noopener">X</a>
+            <a href="https://substack.com/@mikebartolomeo" title="Substack" target="_blank" rel="noopener">S</a>
+          </div>
+        </div>
+
+        <div class="form-box">
+          <form action="https://formspree.io/f/YOUR_FORM_ID" method="POST">
+            <div class="f">
+              <label for="name">Name</label>
+              <input type="text" id="name" name="name" required>
+            </div>
+            <div class="f">
+              <label for="email">Email</label>
+              <input type="email" id="email" name="email" required>
+            </div>
+            <div class="f">
+              <label for="org">Organization</label>
+              <input type="text" id="org" name="organization">
+            </div>
+            <div class="f">
+              <label for="interest">I'm Interested In</label>
+              <select id="interest" name="interest">
+                <option value="">Select one...</option>
+                <option value="workshop">Booking a Workshop or Class</option>
+                <option value="webinar">Booking a Webinar</option>
+                <option value="speaking">A Speaking Engagement</option>
+                <option value="other">Something Else</option>
+              </select>
+            </div>
+            <div class="f">
+              <label for="message">Message</label>
+              <textarea id="message" name="message" required></textarea>
+            </div>
+            <button type="submit" class="btn btn-b" style="width: 100%;">Send Message</button>
+          </form>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <footer><p>&copy; 2026 MikeTalksTech. All rights reserved.</p></footer>
+
+</body>
+</html>
