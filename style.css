@@ -148,8 +148,8 @@ nav.dark .menu-btn span { background: #fff; }
 .btn-row { display: flex; gap: 10px; justify-content: center; }
 
 /* ===== SECTIONS ===== */
-.sec { padding: 28px 0; }
-.sec-alt { background: var(--surface); }
+.sec { padding: 24px 0; }
+.sec-alt { background: var(--surface); padding-top: 20px; }
 
 .sec-label {
   display: inline-block;
@@ -166,7 +166,7 @@ nav.dark .menu-btn span { background: #fff; }
 
 .sec h2 { font-size: 22px; font-weight: 700; margin-bottom: 6px; }
 .sec .sub { font-size: 14px; color: var(--text-mid); max-width: 440px; }
-.sec-head { margin-bottom: 24px; text-align: center; }
+.sec-head { margin-bottom: 18px; text-align: center; }
 .sec-head .sub { margin: 0 auto; }
 
 /* ===== 3-COLUMN GRID ===== */
