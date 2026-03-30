@@ -148,7 +148,7 @@ nav.dark .menu-btn span { background: #fff; }
 .btn-row { display: flex; gap: 10px; justify-content: center; }
 
 /* ===== SECTIONS ===== */
-.sec { padding: 40px 0; }
+.sec { padding: 28px 0; }
 .sec-alt { background: var(--surface); }
 
 .sec-label {
