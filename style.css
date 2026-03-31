@@ -102,8 +102,24 @@ nav.dark .menu-btn span { background: #fff; }
 .hero h1 #rotate {
   display: inline-block;
   color: var(--blue-soft);
-  transition: opacity 0.3s ease;
-  min-width: 180px;
+  overflow: hidden;
+  vertical-align: bottom;
+  height: 1.15em;
+}
+
+.hero h1 #rotate span {
+  display: block;
+  transition: transform 0.35s ease, opacity 0.35s ease;
+}
+
+.hero h1 #rotate span.out {
+  transform: translateY(-100%);
+  opacity: 0;
+}
+
+.hero h1 #rotate span.in {
+  transform: translateY(0);
+  opacity: 1;
 }
 
 .hero p {

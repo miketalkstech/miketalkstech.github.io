@@ -89,14 +89,23 @@
   (function() {
     var words = ["Patrons", "Staff", "Library", "Community", "Organization"];
     var el = document.getElementById("rotate");
+    el.innerHTML = '<span class="in">' + words[0] + '</span>';
     var i = 0;
     setInterval(function() {
-      el.style.opacity = 0;
+      var current = el.querySelector("span");
+      current.className = "out";
       setTimeout(function() {
         i = (i + 1) % words.length;
-        el.textContent = words[i];
-        el.style.opacity = 1;
-      }, 300);
+        current.remove();
+        var next = document.createElement("span");
+        next.textContent = words[i];
+        next.style.transform = "translateY(100%)";
+        next.style.opacity = "0";
+        el.appendChild(next);
+        setTimeout(function() {
+          next.className = "in";
+        }, 20);
+      }, 350);
     }, 2500);
   })();
   </script>
