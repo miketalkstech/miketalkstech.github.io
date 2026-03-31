@@ -100,9 +100,6 @@ nav.dark .menu-btn span { background: #fff; }
 }
 
 #rotate {
-  display: inline-block;
-  width: 6.5em;
-  text-align: center;
   color: var(--blue-soft);
   transition: opacity 0.3s;
 }
